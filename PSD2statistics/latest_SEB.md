@@ -2,7 +2,7 @@
 
 Publication of daily statistics on the availability and performance of the dedicated interface as set out in Guidelines 2.2 and 2.3 in [Final Report on the Guidelines on the Exemption from the Contingency Mechanism Under Article 33(6) RTS on SCA & CSC](https://eba.europa.eu/sites/default/documents/files/documents/10180/2250578/4e3b9449-ecf9-4756-8006-cbbe74db6d03/Final%20Report%20on%20Guidelines%20on%20the%20exemption%20to%20the%20fall%20back.pdf?retry=1) and of the interfaces made available to [SEB](https://sebgroup.com) customers for directly accessing their payment accounts online.
 
-The time period covered by this report is 2025-10-01 – 2025-12-31.
+The time period covered by this report is 2026-01-01 – 2026-03-31.
 
 
 ### Segment: Corporate - Uptime
@@ -27,7 +27,7 @@ The time period covered by this report is 2025-10-01 – 2025-12-31.
 ![private_ais][private_ais]
 ### Segment: Private - PIS Average Response
 ![private_pis][private_pis]
-### Segment: Private - FCIS Average2025Q3 Response
+### Segment: Private - FCIS Average Response
 ![private_fcis][private_fcis]
 
 
