@@ -54,7 +54,7 @@ this changes is acceptable for corporate flow only.
 | `instructedAmount.currency` <br/> `instructedAmount.amount`                                                                                     |              |
 | `requestedExecutionDate`                                                                                                                        |              |
 | `debtorAccount.iban` <br/> `debtorAccount.bban`                                                                                                 |              |
-| `creditorAccount.iban`  <br/> `creditorAccount.pgnr`  <br/> `creditorAccount.bgnr`                                                              |              |
+| `creditorAccount.iban`  <br/>  `creditorAccount.bban`  <br/> `creditorAccount.pgnr`  <br/> `creditorAccount.bgnr`                               |              |
 | `creditorAgentBIC`                                                                                                                              |              |
 | `creditorName`                                                                                                                                  |              |
 | `debtorAccountMessage`                                                                                                                          | new field    |
@@ -73,7 +73,7 @@ this changes is acceptable for corporate flow only.
 | `instructedAmount.currency` <br/> `instructedAmount.amount`                                                                                     |              |
 | `requestedExecutionDate`                                                                                                                        |              |
 | `debtorAccount.iban`   <br> `debtorAccount.bban`                                                                                                |              |  
-| `creditorAccount.iban`   <br/> `creditorAccount.pgnr`  <br/> `creditorAccount.bgnr`                                                             |              |
+| `creditorAccount.iban`  <br/>  `creditorAccount.bban`  <br/> `creditorAccount.pgnr`  <br/> `creditorAccount.bgnr`                               |              |
 | `creditorAgentBIC`                                                                                                                              |              |
 | `creditorName`                                                                                                                                  |              |
 | `debtorAccountMessage`                                                                                                                          | new field    |
@@ -93,7 +93,7 @@ this changes is acceptable for corporate flow only.
 | `instructedAmount.currency` <br> `instructedAmount.amount`                                                                                   |              |
 | `requestedExecutionDate`                                                                                                                     |              |
 | `debtorAccount.iban` <br> `debtorAccount.bban`                                                                                               |              |
-| `creditorAccount.iban`   <br/> `creditorAccount.pgnr`  <br/> `creditorAccount.bgnr`                                                          |              |
+| `creditorAccount.iban`  <br/>  `creditorAccount.bban`  <br/> `creditorAccount.pgnr`  <br/> `creditorAccount.bgnr`                            |              |
 | `creditorAgentBIC`                                                                                                                           |              |
 | `creditorName`                                                                                                                               |              |
 | `debtorAccountMessage`                                                                                                                       | new field    |

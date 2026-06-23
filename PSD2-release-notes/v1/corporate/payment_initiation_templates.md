@@ -48,11 +48,11 @@ Response body schema remains the same for available templates in corporate payme
 #### changes in `corporate-se-domestic-credit-transfers` template v1 comparing to `se-domestic-credit-transfers` template v8
 
 
-| **V8**                                                                           | **V1**                 | **Comments**                       |
-|----------------------------------------------------------------------------------|------------------------|------------------------------------|
-| _Not present_                                                                    | `creditorAccount.iban` | Removed fields                     |
-| `creditorAccount.bban` <br/> `creditorAccount.bgnr` <br/> `creditorAccount.pgnr` | _removed_              | Removed fields                     |
-| `creditorAccountMessage`                                                         | _removed_              | Removed fields                     |
+| **V8**                                              | **V1**                 | **Comments**                       |
+|-----------------------------------------------------|------------------------|------------------------------------|
+| _Not present_                                       | `creditorAccount.iban` | Removed fields                     |
+| `creditorAccount.bgnr` <br/> `creditorAccount.pgnr` | _removed_              | Removed fields                     |
+| `creditorAccountMessage`                            | _removed_              | Removed fields                     |
 ---
 <br/>
 
@@ -68,7 +68,7 @@ Response body schema remains the same for available templates in corporate payme
 
 | **V8**                   | **V1**                 | **Comments**    |
 |--------------------------|------------------------|-----------------|
-| `creditorAccount.iban`   | _removed_              | Removed fields  |
+| `creditorAccount.bban`   | _removed_              | Removed fields  |
 | `instructionId`          | _removed_              | Removed fields  |
 | `creditorAccountMessage` | _removed_              | Removed fields  |
 | `creditorAgentBIC`       | _removed_              | Removed fields  |
