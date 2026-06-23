@@ -56,7 +56,6 @@ Response body schema remains the same for available templates in private payment
 | _Not present_                    | `creditorName`                                                                                   | Added new mandatory field         |
 | _Not present_                    | `remittanceInformationUnstructured`                                                              | Added new field                   |
 | _Not present_                    | `remittanceInformationStructured.reference`<br/> `remittanceInformationStructured.referenceType` | Added new fields                  |
-| `creditorAccount.bban`           | _removed_                                                                                        | Removed fields                    |
 | `creditorAccountMessage`         | _removed_                                                                                        | Removed fields                    |
 ---
 <br/>
@@ -67,6 +66,7 @@ Response body schema remains the same for available templates in private payment
 |-----------------------------------|-------------------------------------|-----------------------------------|
 | `templateId`<br/>                 | `templateId`                        | Changed from required to optional |
 | _Not present_<br/>                | `debtorAccount.bban`                | Added new field                   |
+| _Not present_<br/>                | `creditorAccount.bban`              | Added new field                   |
 | _Not present_<br/>                | `remittanceInformationUnstructured` | Added new field                   |
 | `creditorAccountMessage`<br/>     | _removed_                           | Removed fields                    |
 ---
