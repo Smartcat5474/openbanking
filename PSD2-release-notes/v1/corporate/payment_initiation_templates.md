@@ -1,4 +1,4 @@
-# Private payment initiation template changes from V8 to V1 condensed version
+# Corporate payment initiation template changes from V8 to V1 condensed version
 
 
 ## Description of changes
