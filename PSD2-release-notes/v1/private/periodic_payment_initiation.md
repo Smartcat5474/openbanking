@@ -41,43 +41,45 @@ There are no changes in headers between V8 and V1
 <br/>
 
 ### Creates a periodic payment initiation (POST /periodic-payments/{paymentProduct})
-| **Request body V1 **                             | **Comments** |
-|--------------------------------------------------|--------------|
-| `templateId`                                     |              |
-| `InstructedAmount.currency`                      |              |
-| `InstructedAmount.amount`                        |              |
-| `DebtorAccount.iban`                             |              |
-| `DebtorAccount.bban`                             | new field    |
-| `debtorAccountMessage`                           |              |
-| `CreditorAccount.iban`                           |              |
-| `creditorName`                                   |              |
-| `requestedExecutionDate`                         |              |
-| `remittanceInformationUnstructured`              |              |
-| `RemittanceInformationStructured.reference`      |              |
-| `RemittanceInformationStructured.referenceType`  |              |
-| `startDate`                                      |              |
-| `frequency`                                      |              |
+| **Request body V1 **                            | **Comments** |
+|-------------------------------------------------|--------------|
+| `templateId`                                    |              |
+| `instructedAmount.currency`                     |              |
+| `instructedAmount.amount`                       |              |
+| `debtorAccount.iban`                            |              |
+| `debtorAccount.bban`                            | new field    |
+| `debtorAccountMessage`                          |              |
+| `creditorAccount.iban`                          |              |
+| `creditorAccount.bban`                          |              |
+| `creditorName`                                  |              |
+| `requestedExecutionDate`                        |              |
+| `remittanceInformationUnstructured`             |              |
+| `remittanceInformationStructured.reference`     |              |
+| `remittanceInformationStructured.referenceType` |              |
+| `startDate`                                     |              |
+| `frequency`                                     |              |
 <br/>
 
-| **Response body V1 **                            | **Comments** |
-|--------------------------------------------------|--------------|
-| `paymentId`                                      |              |
-| `templateId`                                     |              |
-| `transactionStatus`                              | new field    |
-| `instructedAmount.currency`                      |              |
-| `instructedAmount.amount`                        |              |
-| `debtorAccount.iban`                             |              |
-| `debtorAccount.bban`                             | new field    |
-| `debtorAccountMessage`                           |              |
-| `creditorAccount.iban`                           |              |
-| `creditorName`                                   |              |
-| `requestedExecutionDate`                         |              |
-| `remittanceInformationUnstructured`              |              |
-| `remittanceInformationStructured.reference`      |              |
-| `remittanceInformationStructured.referenceType`  |              |
-| `link.Status.href`                               |              |
-| `startDate`                                      |              |
-| `frequency`                                      |              |
+| **Response body V1 **                           | **Comments** |
+|-------------------------------------------------|--------------|
+| `paymentId`                                     |              |
+| `templateId`                                    |              |
+| `transactionStatus`                             | new field    |
+| `instructedAmount.currency`                     |              |
+| `instructedAmount.amount`                       |              |
+| `debtorAccount.iban`                            |              |
+| `debtorAccount.bban`                            | new field    |
+| `debtorAccountMessage`                          |              |
+| `creditorAccount.iban`                          |              |
+| `creditorAccount.bban`                          |              |
+| `creditorName`                                  |              |
+| `requestedExecutionDate`                        |              |
+| `remittanceInformationUnstructured`             |              |
+| `remittanceInformationStructured.reference`     |              |
+| `remittanceInformationStructured.referenceType` |              |
+| `link.Status.href`                              |              |
+| `startDate`                                     |              |
+| `frequency`                                     |              |
 ---
 <br/>
 
@@ -93,6 +95,7 @@ There are no changes in headers between V8 and V1
 | `debtorAccount.bban`                            | new field    |
 | `debtorAccountMessage`                          |              |
 | `creditorAccount.iban`                          |              |
+| `creditorAccount.bban`                          |              |
 | `creditorName`                                  |              |
 | `requestedExecutionDate`                        |              |
 | `remittanceInformationUnstructured`             |              |

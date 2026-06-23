@@ -51,19 +51,20 @@ this changes is acceptable for private flow only.
 | `templateId`                                    |              |
 | `instructionId`                                 |              |
 | `endToEndIdentification`                        |              |
-| `InstructedAmount.currency`                     |              |
-| `InstructedAmount.amount`                       |              |
-| `DebtorAccount.iban`                            |              |
-| `DebtorAccount.bban`                            | new field    |
+| `instructedAmount.currency`                     |              |
+| `instructedAmount.amount`                       |              |
+| `debtorAccount.iban`                            |              |
+| `debtorAccount.bban`                            | new field    |
 | `debtorAccountMessage`                          |              |
 | `creditorAccount.iban`                          |              |
+| `creditorAccount.bban`                          |              |
 | `creditorAccount.pgnr`                          |              |
 | `creditorAccount.bgnr`                          |              |
 | `creditorName`                                  |              |
 | `requestedExecutionDate`                        |              |
 | `remittanceInformationUnstructured`             |              |
-| `RemittanceInformationStructured.reference`     |              |
-| `RemittanceInformationStructured.referenceType` |              |
+| `remittanceInformationStructured.reference`     |              |
+| `remittanceInformationStructured.referenceType` |              |
 <br/>
 
 | **Response body V1 **                           | **Comments** |
@@ -79,6 +80,7 @@ this changes is acceptable for private flow only.
 | `debtorAccount.bban`                            | new field    |
 | `debtorAccountMessage`                          |              |
 | `creditorAccount.iban`                          |              |
+| `creditorAccount.bban`                          |              |
 | `creditorAccount.pgnr`                          |              |
 | `creditorAccount.bgnr`                          |              |
 | `creditorName`                                  |              |
@@ -102,6 +104,7 @@ this changes is acceptable for private flow only.
 | `debtorAccount.bban`                            | new field    |
 | `debtorAccountMessage`                          |              |
 | `creditorAccount.iban`                          |              |
+| `creditorAccount.bban`                          |              |
 | `creditorAccount.pgnr`                          |              |
 | `creditorAccount.bgnr`                          |              |
 | `creditorName`                                  |              |
